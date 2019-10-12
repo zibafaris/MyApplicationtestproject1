@@ -47,5 +47,4 @@ public class MainActivity extends AppCompatActivity {
         super.onRestart();
         Log.d("MyTag","onRestart");
     }
-
 }
