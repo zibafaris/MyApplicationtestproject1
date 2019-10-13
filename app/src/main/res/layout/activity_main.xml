@@ -10,201 +10,216 @@
     android:layout_marginBottom="10dp"
     >
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
-        <TextView
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_marginTop="10dp"
-            android:textSize="25dp"
-            android:text="First quarter"
-            android:textColor="@android:color/holo_red_dark"
-            android:backgroundTint="@android:color/holo_red_dark"
-            android:textStyle="bold"/>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
             <TextView
-                android:layout_width="135dp"
-                android:layout_height="70dp"
-                android:layout_gravity="left"
-                android:layout_marginTop="10dp"
-                android:gravity="center"
-                android:inputType="textAutoComplete"
-                android:text="JAN"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/transparent"
+                android:text="First quarter"
+                android:textColor="@android:color/holo_red_dark"
                 android:textSize="20dp"
-                android:textColor="#fff"
-                android:background="#172BCA"
-                android:textStyle="bold"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@android:color/holo_red_dark"
                 />
 
-            <ImageView
-                android:layout_width="255dp"
-                android:layout_height="70dp"
-                android:layout_gravity="right"
-                android:padding="5dp"
-                android:src="@drawable/janr"
-                android:scaleType="centerCrop"
-                tools:ignore="MissingConstraints" />
-        </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="135dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="5dp"
+                    android:background="#172BCA"
+                    android:gravity="center"
+                    android:inputType="textAutoComplete"
+                    android:text="JAN"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="255dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="right"
+                    android:padding="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/janr"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
 
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
 
-            <TextView
-                android:layout_width="135dp"
-                android:layout_height="70dp"
-                android:layout_gravity="left"
-                android:layout_marginTop="10dp"
-                android:gravity="center"
-                android:inputType="textAutoComplete"
-                android:text="FEB"
-                android:textSize="20dp"
-                android:textColor="#fff"
-                android:background="#172BCA"
-                android:textStyle="bold"
-                />
+                >
 
-            <ImageView
-                android:layout_width="255dp"
-                android:layout_height="70dp"
-                android:layout_gravity="right"
-                android:padding="5dp"
-                android:src="@drawable/febuary"
-                android:scaleType="centerCrop"
-                tools:ignore="MissingConstraints" />
-        </LinearLayout>
+                <TextView
+                    android:layout_width="135dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="5dp"
+                    android:background="#172BCA"
+                    android:gravity="center"
+                    android:inputType="textAutoComplete"
+                    android:text="FEB"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
 
-
-        <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:layout_width="135dp"
-            android:layout_height="70dp"
-            android:layout_gravity="left"
-            android:layout_marginTop="10dp"
-            android:gravity="center"
-            android:inputType="textAutoComplete"
-            android:text="MAR"
-            android:textSize="20dp"
-            android:textColor="#fff"
-            android:background="#172BCA"
-            android:textStyle="bold"
-            />
-
-        <ImageView
-            android:layout_width="255dp"
-            android:layout_height="70dp"
-            android:layout_gravity="right"
-            android:padding="5dp"
-            android:src="@drawable/march"
-            android:scaleType="centerCrop"
-            tools:ignore="MissingConstraints" />
-        </LinearLayout>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_marginTop="10dp"
-            android:textSize="25dp"
-            android:text="Secound quarter"
-            android:textColor="@android:color/holo_red_dark"
-            android:backgroundTint="@android:color/holo_red_dark"
-            android:textStyle="bold"
-            />
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="255dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="right"
+                    android:padding="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/febuary"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
 
 
-            <TextView
-                android:layout_width="135dp"
-                android:layout_height="70dp"
-                android:layout_gravity="left"
-                android:layout_marginTop="10dp"
-                android:gravity="center"
-                android:inputType="textAutoComplete"
-                android:text="APR"
-                android:textSize="20dp"
-                android:textColor="#fff"
-                android:background="#172BCA"
-                android:textStyle="bold"
-                />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
 
-            <ImageView
-                android:layout_width="255dp"
-                android:layout_height="70dp"
-                android:layout_gravity="right"
-                android:padding="5dp"
-                android:src="@drawable/april"
-                android:scaleType="centerCrop"
-                tools:ignore="MissingConstraints" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="135dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="5dp"
+                    android:background="#172BCA"
+                    android:gravity="center"
+                    android:inputType="textAutoComplete"
+                    android:text="MAR"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="255dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="right"
+                    android:padding="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/march"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
 
             <TextView
-
-                android:layout_width="135dp"
-                android:layout_height="70dp"
-                android:layout_gravity="left"
-                android:layout_marginTop="10dp"
-                android:gravity="center"
-                android:inputType="textAutoComplete"
-                android:text="MAY"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="5dp"
+                android:background="@android:color/transparent"
+                android:text="Secound quarter"
+                android:textColor="@android:color/holo_red_dark"
                 android:textSize="20dp"
-                android:textColor="#fff"
-                android:background="#172BCA"
-                android:textStyle="bold"
-                />
-
-            <ImageView
-                android:layout_width="255dp"
-                android:layout_height="70dp"
-                android:layout_gravity="right"
-                android:padding="5dp"
-                android:src="@drawable/may"
-                android:scaleType="centerCrop"
-                tools:ignore="MissingConstraints" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
-
-            <TextView
-
-                android:layout_width="135dp"
-                android:layout_height="70dp"
-                android:layout_gravity="left"
-                android:layout_marginTop="10dp"
-                android:gravity="center"
-                android:inputType="textAutoComplete"
-                android:text="JUN"
-                android:textSize="20dp"
-                android:background="#172BCA"
-                android:textColor="#fff"
                 android:textStyle="bold" />
 
-            <ImageView
-                android:layout_width="255dp"
-                android:layout_height="70dp"
-                android:layout_gravity="right"
-                android:padding="5dp"
-                android:src="@drawable/june"
-                android:scaleType="centerCrop"
-                tools:ignore="MissingConstraints" />
-        </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="5dp"
+                android:background="@android:color/holo_red_dark"
+                />
 
-    </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+
+                <TextView
+                    android:layout_width="135dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="5dp"
+                    android:background="#172BCA"
+                    android:gravity="center"
+                    android:inputType="textAutoComplete"
+                    android:text="APR"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="255dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="right"
+                    android:padding="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/april"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="135dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="5dp"
+                    android:background="#172BCA"
+                    android:gravity="center"
+                    android:inputType="textAutoComplete"
+                    android:text="MAY"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="255dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="right"
+                    android:padding="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/may"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_width="135dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="left"
+                    android:layout_marginTop="5dp"
+                    android:background="#172BCA"
+                    android:gravity="center"
+                    android:inputType="textAutoComplete"
+                    android:text="JUN"
+                    android:textColor="#fff"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:layout_width="255dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="right"
+                    android:padding="5dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/june"
+                    tools:ignore="MissingConstraints" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 </RelativeLayout>
